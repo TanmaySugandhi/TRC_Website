@@ -1,0 +1,49 @@
+.fullscreen-slider {
+  height: 90vh;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+.carousel .slide img {
+  height: 90vh;
+  object-fit: cover;
+}
+
+.carousel .legend {
+  background: rgba(0, 0, 0, 0.5);
+  font-size: 1.5rem;
+  padding: 10px;
+}
+@media (max-width: 768px) {
+  .fullscreen-slider {
+    height: 60vh; /* Reduce height for mobile */
+  }
+
+  .carousel .slide img {
+    height: 60vh;
+    object-fit: cover;
+  }
+
+  .carousel .legend {
+    font-size: 1rem;
+    padding: 6px 10px;
+    bottom: 10px; /* Optional: pull legend closer to bottom */
+  }
+}
+
+@media (max-width: 480px) {
+  .fullscreen-slider {
+    height: 50vh;
+  }
+
+  .carousel .slide img {
+    height: 50vh;
+  }
+
+  .carousel .legend {
+    font-size: 0.9rem;
+    padding: 4px 8px;
+  }
+}
