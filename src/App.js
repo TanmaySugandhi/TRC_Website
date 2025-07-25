@@ -1,7 +1,8 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import FullScreenSlider from './components/FullScreenSlider';
-import OverlaySections from  './components/OverlaySections';
+import OverlaySections from  './components/About';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <div className="App">
         <FullScreenSlider />
         <OverlaySections />
+        <Footer />
       </div>
     </>
   );
