@@ -1,0 +1,51 @@
+.team-header {
+  background-color: #fbbf24;
+  text-align: center;
+  padding: 60px 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.team-title {
+  font-size: 4rem;
+  font-weight: 900;
+  color: #0a1128;
+  position: relative;
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
+}
+.club-achievements {
+  width: 100%;
+  padding: 40px 0;
+  background-color: #dddddd;
+  align-content: center;
+}
+
+.achievement-title h3 {
+  text-align: center;
+   font-size: 2rem;
+     font-weight: 900;
+    color: #0a1128;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.achievement-table {
+    align-content: center;
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.achievement-table th,
+.achievement-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.year-header {
+  background-color: #0a1128;
+  color: #fbbf24;
+  font-weight: bold;
+  font-size: 1.2rem;
+}

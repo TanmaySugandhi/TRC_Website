@@ -1,134 +1,15 @@
-.about-section {
-  padding: 60px 0;
-  background: #dddddd;
-  z-index: 0;
-  position: relative;
-  color: #666666;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 400;
-}
-
-.container {
-  z-index: 0;
-  width: 90%;
-  margin: auto;
-  max-width: 1200px;
-}
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  gap: 0px; /* Slight spacing if needed, or use 0px */
-}
-
-.left, .right {
-  flex: 0 0 50%; /* Shrink both to make more space for closeness */
-  padding: 0;    /* Ensure no extra padding */
-  margin: 0;     /* Ensure no extra margin */
-}
-
-.about-img img {
-  height: 380px;
-  padding-top: 40px;
-  width: 100%;
-  max-width: 400px;  /* Slightly smaller logo if needed */
-  object-fit: contain;
-  display: block;
-  margin: auto;
-}
-
-.section-header h2 {
-  font-size: 3rem;
-  color: #333;
-  font-weight: 900;
-  margin-bottom: 20px;
-}
-
-.about-text p {
-  font-size: 1rem;
-  line-height: 1.6;
-  color: #353535b0;
-  margin-bottom: 15px;
-  text-align: justify;
-}
-
-.slogan-motto-section {
-  background-color: #020e27;
+.team-header {
+  background-color: #fbbf24;
+  text-align: center;
   padding: 60px 20px;
   font-family: 'Poppins', sans-serif;
 }
 
-.slogan-motto-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  max-width: 1200px;
-  margin: auto;
-  gap: 20px;
-}
-
-.motto {
-  flex: 1 1 45%;
-  background-color: #ffffff00;
-  padding: 2px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  border-radius: 12px;
-  text-align: center;
-}
-
-.motto h2 {
-  font-variant: small-caps;
-  font-size: 1.8rem;
-  font-weight: 700;
-  margin-bottom: 15px;
-  color: #ffc107;
-}
-
-.slogan p, .motto p {
-  font-style: italic;
-  font-size: 1rem;
-  color: #838282;
-  line-height: 9px;
-}
-
-@media (max-width: 768px) {
-  .slogan-motto-container {
-    flex-direction: column;
-  }
-
-  .slogan, .motto {
-    flex: 1 1 100%;
-  }
-}
-
-
-@media (max-width: 768px) {
-  .row {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .left, .right {
-    flex: 0 0 100%;
-    max-width: 100%;
-  }
-
-  .about-img img {
-    height: 220px;
-    padding-top: 0;
-    max-width: 250px;
-  }
-
-  .motto-heading {
-    font-size: 1.5rem;
-    margin-top: 20px;
-  }
-
-  .about-text p {
-    font-size: 0.95rem;
-    padding: 0 1rem;
-  }
+.team-title {
+  font-size: 4rem;
+  font-weight: 900;
+  color: #0a1128;
+  position: relative;
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
 }

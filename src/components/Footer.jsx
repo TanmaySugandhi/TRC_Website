@@ -11,16 +11,16 @@ function Footer() {
         <div class="footer-social">
           <h3>Follow us on</h3>
           <div class="footer-icons">
-            <a href="#">
+            <a href="https://m.facebook.com/theroboticsclubsnist/">
               <i class="fab fa-facebook-f"></i>
             </a>
-            <a href="#">
+            <a href="https://www.youtube.com/channel/UC9BkjBScr7A67vb8Ruq3cbg">
               <i class="fab fa-youtube"></i>
             </a>
-            <a href="#">
+            <a href="https://instagram.com/theroboticsclubsnist">
               <i class="fab fa-instagram"></i>
             </a>
-            <a href="#">
+            <a href="https://www.linkedin.com/company/the-robotics-club-snist/">
               <i class="fab fa-linkedin-in"></i>
             </a>
           </div>

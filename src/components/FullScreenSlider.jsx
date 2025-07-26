@@ -4,7 +4,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import './FullScreenSlider.css';
 
 
-const FullScreenSlider = () => {
+const Slider = () => {
   return (
     <section className="fullscreen-slider" id="home">
       <Carousel 
@@ -43,4 +43,4 @@ const FullScreenSlider = () => {
   );
 };
 
-export default FullScreenSlider;
+export default Slider;

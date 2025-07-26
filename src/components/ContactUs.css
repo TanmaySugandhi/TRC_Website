@@ -1,0 +1,158 @@
+.back {
+  background-color: #dddddd;
+  padding: 1%;
+}
+
+.team-header {
+  background-color: #fbbf24;
+  text-align: center;
+  padding: 60px 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.team-title {
+  font-size: 4rem;
+  font-weight: 900;
+  color: #0a1128;
+  position: relative;
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contact-container {
+  margin: 2rem auto;
+  font-family: 'Poppins', sans-serif;
+  padding: 2rem;
+  background-color: #dddddd;
+  color: #0a1128;
+  width: 80%;
+  max-width: 900px;
+  box-sizing: border-box;
+}
+
+.contact-heading {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #fbbf24;
+  margin-bottom: 2rem;
+}
+
+.contact-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.contact-info,
+.contact-form {
+  flex: 1;
+  min-width: 300px;
+}
+.contact-info{
+    margin-top: 10%;
+}
+.contact-container h2 {
+  color: #0a1128;
+  text-align: center;
+  width: 100%;
+}
+
+.contact-info p {
+  margin: 0.5rem 0;
+}
+
+.social-icons {
+  margin-top: 1rem;
+}
+
+.social-icons a {
+  margin: 0 0.5rem;
+  font-size: 1.5rem;
+  color: #0a1128;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #fbbf24;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.8rem;
+  margin: 0.5rem 0;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.contact-form button {
+  padding: 0.8rem;
+  background-color: #0a1128;
+  color: #fbbf24;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #fbbf24;
+  color: #0a1128;
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    width: 90%;
+    padding: 1.5rem;
+  }
+
+  .contact-heading {
+    font-size: 2rem;
+  }
+
+  .team-title {
+    font-size: 2.5rem;
+  }
+
+  .contact-content {
+    flex-direction: column;
+  }
+
+  .contact-info, .contact-form {
+    width: 100%;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 0.95rem;
+  }
+
+  .contact-form button {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-heading {
+    font-size: 1.75rem;
+  }
+
+  .team-title {
+    font-size: 2rem;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 0.9rem;
+  }
+
+  .contact-form button {
+    font-size: 0.95rem;
+  }
+}
