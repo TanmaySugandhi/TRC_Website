@@ -6,10 +6,9 @@ function Induction() {
   return (
     <>
       <div className="header">
-        <h1 className="head-title">Projects</h1>
+        <h1 className="head-title">Induction Projects</h1>
       </div>
       <div className="project-section">
-        <h2 className="project-title">Induction Phase</h2>
         <div className="project-cards">
           <div className="card-container">
             <Link to="/induction/2024" className="event-card">

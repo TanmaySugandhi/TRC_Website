@@ -1,43 +1,58 @@
-import React from "react";
+import React, { useState } from 'react';
 import "../components/Project2.css";
 
-const projectData = [
-  {
-    title: "Pet Health Monitoring System",
-    description: `Pet’s health monitoring system is a belt which can be used to check all the vital parameters of their pets in real-time. Such belts can measure heart rate, temperature etc. By using ECG sensor, we can measure heart rate and with temperature sensor we can measure the pet’s body temperature. If any serious changes occur in any parameters that can be taken as signs of illness, it will send an alert to a pet owner. Physical activity is very important for pets. Modern applications can analyse walking distance, time of activity per day etc. We can use ADXL accelerometer to count the steps during walking. If a pet is not active enough during the day, an owner will be notified. To control all the sensors, we use NodeMCU8266 microcontroller.`,
-    image: "/assets/induction23/pet-health.jpg",
-  },
-  {
-    title: "Line Following Robot",
-    description: "A competition-ready robot using PID control and IR sensors, optimized for speed and precision.",
-    image: "/assets/lfr.jpg",
-  },
-  {
-    title: "Smart Compost System",
-    description: "An IoT-based compost system monitoring moisture, methane, temperature, and pH levels for efficient composting.",
-    image: "/assets/compost.jpg",
+const projects = [
+    {
+    title: 'Pets Health Monitoring System',
+    image: '/img/indprojects/ind23/ind23-1.jpg',
+    description: `Pet’s health monitoring system is a belt...`,
   },
 ];
 
 function Induction24() {
+  const [popupData, setPopupData] = useState(null);
+
+  const openPopup = (project) => {
+    setPopupData(project);
+  };
+
+  const closePopup = () => {
+    setPopupData(null);
+  };
+
   return (
+    <>
+    <div className="header">
+      <h1 className="head-title">Induction 2023</h1>
+    </div>
     <div className="projects-wrapper">
-      <h1 className="projects-header">Our Projects</h1>
-      {projectData.map((project, index) => (
-        <div
-          className={`project-card ${index % 2 === 0 ? "left" : "right"}`}
-          key={index}
-        >
-          <div className="image-container">
-            <img src={project.image} alt={project.title} className="project-img" />
-            <h2 className="project-title">{project.title}</h2>
+      <div className="projects-grid">
+        {projects.map((project, index) => (
+          <div
+            key={index}
+            className="project-card"
+            onClick={() => openPopup(project)}
+          >
+            <div className="project-img">
+              <img src={project.img} alt={project.title} />
+            </div>
+            <div className="project-title">{project.title}</div>
           </div>
-          <div className="project-description">
-            <p>{project.description}</p>
+        ))}
+      </div>
+
+      {popupData && (
+        <div className="popup" style={{ display: 'flex' }}>
+          <div className="popup-content">
+            <span className="close-btn" onClick={closePopup}>×</span>
+            <img src={popupData.img} alt="Popup" />
+            <h5>{popupData.title}</h5>
+            <p>{popupData.description}</p>
           </div>
         </div>
-      ))}
+      )}
     </div>
+    </>
   );
 }
 

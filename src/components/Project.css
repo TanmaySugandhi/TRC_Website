@@ -32,9 +32,10 @@
 }
 
 .card-container {
+  text-decoration: none;
   display: flex;
   flex-wrap: wrap;
-  gap: 1.5rem;
+  gap: 2rem;
   justify-content: center;
   padding: 1rem;
   background-color: #dddddd;
@@ -42,6 +43,9 @@
 }
 
 .event-card {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-decoration: none;
   background-color: #0a1128;
   width: 300px;
   border-radius: 8px;
@@ -58,9 +62,11 @@
   width: 100%;
   height: auto;
   display: block;
+  text-decoration: none;
 }
 
 .card-caption {
+  text-decoration: none;
   background-color: #0a1128;
   color: #fbbf24;
   font-weight: 700;
