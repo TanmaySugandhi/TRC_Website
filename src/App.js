@@ -17,6 +17,10 @@ import Induction24 from "./pages/ind24";
 import Induction23 from "./pages/ind23";
 import Induction22 from "./pages/ind22";
 import Induction20 from "./pages/ind20";
+import Post23 from "./pages/post23";
+import Post22 from "./pages/post22";
+import Post21 from "./pages/post21";
+import Post19 from "./pages/post19";
 
 
 function App() {
@@ -35,6 +39,10 @@ function App() {
         <Route path="/induction/2022" element={<Induction22 />} />
         <Route path="/induction/2020" element={<Induction20 />} />
         <Route path="/post" element={<Post />} />
+        <Route path="/post/2023" element={<Post23 />} />
+        <Route path="/post/2022" element={<Post22 />} />
+        <Route path="/post/2021" element={<Post21 />} />
+        <Route path="/post/2019" element={<Post19 />} />
         <Route path="/tab" element={<TAB />} />
         <Route path="/blogs" element={<Blogs />} />
         <Route path="/events" element={<Events />} />
