@@ -92,9 +92,22 @@ function Navbar() {
             </li>
           </ul>
         </li>
-
-        <li className={active === "Blogs" ? "active" : ""}>
-          <Link className="link" to="/blogs" onClick={() => handleLinkClick("Blogs")}>Blogs</Link>
+                <li
+          className="dropdown"
+          onMouseEnter={() => handleMouseEnter("Blogs")}
+          onMouseLeave={handleMouseLeave}
+        >
+          <span className={active === "Blogs" ? "active" : ""}>
+            Blogs ▾
+          </span>
+          <ul className={`dropdown-menu ${openDropdown === "Blogs" ? "show" : ""}`}>
+            <li>
+              <Link className="link" to="/blogs" onClick={() => handleLinkClick("Blogs")}>TAB</Link>
+            </li>
+            <li>
+              <Link className="link" to="/robotics" onClick={() => handleLinkClick("Blogs")}>Robotics</Link>
+            </li>
+          </ul>
         </li>
 
         <li className={active === "Events" ? "active" : ""}>
