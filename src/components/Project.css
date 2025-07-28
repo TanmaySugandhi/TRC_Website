@@ -42,7 +42,7 @@
   font-family: 'Poppins', sans-serif;
 }
 
-.event-card {
+.project-section .event-card {
   margin-top: 50px;
   margin-bottom: 50px;
   text-decoration: none;
@@ -54,18 +54,18 @@
   transition: transform 0.3s ease;
 }
 
-.event-card:hover {
+.project-section .event-card:hover {
   transform: translateY(-5px);
 }
 
-.event-card img {
+.project-section .event-card img {
   width: 100%;
   height: auto;
   display: block;
   text-decoration: none;
 }
 
-.card-caption {
+.project-section .card-caption {
   text-decoration: none;
   background-color: #0a1128;
   color: #fbbf24;

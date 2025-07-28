@@ -1,0 +1,115 @@
+.blog-outside{
+    background-color: #dddddd;
+    margin-bottom: 0px;
+    padding: 20px;
+}
+
+.blog-item {
+  background: #fff;
+  max-width: 900px;
+  margin: 32px auto 64px auto;
+  border-radius: 12px;
+  box-shadow: 0 10px 32px rgba(0,0,0,0.07), 0 1.5px 6px rgba(0,0,0,0.05);
+  padding: 32px 36px 40px 36px;
+  box-sizing: border-box;
+  color: #333;
+  line-height: 1.65;
+  position: relative;
+}
+
+.blog-title h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 12px;
+  letter-spacing: 0.03em;
+}
+
+.blog-meta p {
+  margin: 0 0 24px 0;
+  color: #777;
+  font-size: 1rem;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.blog-text p,
+.blog-text b,
+.blog-text u,
+.blog-text a,
+.blog-text br {
+  font-size: 1.1rem;
+  color: #444;
+}
+
+
+.blog-text p {
+  text-align: left;
+  margin-bottom: 18px;
+}
+
+.blog-text b,
+.blog-text u {
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-color: #ffc107; 
+}
+
+.blog-text a {
+  color: #007bff;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.blog-text a:hover {
+  color: #004080;
+  text-decoration: none;
+}
+
+.blog-text video {
+  width: 100%;
+  border-radius: 10px;
+  margin: 24px 0;
+  display: block;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+}
+.blog-text image {
+  width: 100%;
+  border-radius: 10px;
+  margin: 24px 0;
+  display: block;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .blog-item {
+    margin: 24px 16px 48px 16px;
+    padding: 24px 24px 32px 24px;
+    max-width: 100%;
+  }
+  .team-title {
+    font-size: 2rem;
+  }
+  .blog-title h3 {
+    font-size: 1.6rem;
+  }
+  .blog-meta p,
+  .blog-text p {
+    font-size: 1rem;
+  }
+}
+
+
+.blog-item:hover {
+  box-shadow: 0 14px 40px rgba(0,0,0,0.12), 0 4px 12px rgba(0,0,0,0.08);
+  transition: box-shadow 0.3s ease;
+}
+
+
+.blog-text br {
+  display: block;
+  content: "";
+  margin: 12px 0;
+}

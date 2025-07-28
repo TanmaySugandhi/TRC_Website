@@ -21,6 +21,19 @@ import Post23 from "./pages/post23";
 import Post22 from "./pages/post22";
 import Post21 from "./pages/post21";
 import Post19 from "./pages/post19";
+import ROS1 from "./pages/ROS1";
+import ROS2 from "./pages/ROS2";
+import Embedded1 from "./pages/Embedded1";
+import Embedded2 from "./pages/Embedded2";
+import Embedded3 from "./pages/Embedded3";
+import IOT1 from "./pages/IOT1";
+import IOT2 from "./pages/IOT2";
+import IOT3 from "./pages/IOT3";
+import IOT4 from "./pages/IOT4";
+import IOT5 from "./pages/IOT5";
+import DL1 from "./pages/DL1";
+import DL2 from "./pages/DL2";
+import IP1 from "./pages/IP1";
 
 
 function App() {
@@ -45,6 +58,19 @@ function App() {
         <Route path="/post/2019" element={<Post19 />} />
         <Route path="/tab" element={<TAB />} />
         <Route path="/blogs" element={<Blogs />} />
+        <Route path="/blogs/ROS1" element={<ROS1 />} />
+        <Route path="/blogs/ROS2" element={<ROS2 />} />
+        <Route path="/blogs/Embedded1" element={<Embedded1 />} />
+        <Route path="/blogs/Embedded2" element={<Embedded2 />} />
+        <Route path="/blogs/Embedded3" element={<Embedded3 />} />
+        <Route path="/blogs/IOT1" element={<IOT1 />} />
+        <Route path="/blogs/IOT2" element={<IOT2 />} />
+        <Route path="/blogs/IOT3" element={<IOT3 />} />
+        <Route path="/blogs/IOT4" element={<IOT4 />} />
+        <Route path="/blogs/IOT5" element={<IOT5 />} />
+        <Route path="/blogs/DL1" element={<DL1 />} />
+        <Route path="/blogs/DL2" element={<DL2 />} />
+        <Route path="/blogs/IP1" element={<IP1 />} />
         <Route path="/events" element={<Events />} />
       </Routes>
       <Footer />

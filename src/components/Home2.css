@@ -8,7 +8,7 @@ h1 {
   font-size: 3rem;
   color: #020e25;
   font-weight: 900;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .events-section h2 {
@@ -28,26 +28,29 @@ h1 {
 
 .events-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 2rem;
+grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+gap: 2rem;
   justify-items: center;
 }
 
 .event-card {
+  width: 100%;
+  max-width: 400px; /* Or whatever size you want */
   background-color: #020e25;
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
-  max-width: 350px;
 }
+
 
 .event-card:hover {
   transform: translateY(-5px);
 }
 
 .event-card img {
-  height: 200px;
+  width: 100%;
+  height: auto;
   object-fit: cover;
 }
 
