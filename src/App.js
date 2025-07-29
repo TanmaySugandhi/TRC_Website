@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Induction from "./pages/Induction";
 import Blogs from "./pages/Blogs";
+import Robotics from "./pages/Robotics";
 import Events from "./pages/Events";
 import Team from "./pages/Team";
 import Achievement from "./pages/Achievement";
@@ -58,6 +59,7 @@ function App() {
         <Route path="/post/2019" element={<Post19 />} />
         <Route path="/tab" element={<TAB />} />
         <Route path="/blogs" element={<Blogs />} />
+        <Route path="/robotics" element={<Robotics />} />
         <Route path="/blogs/ROS1" element={<ROS1 />} />
         <Route path="/blogs/ROS2" element={<ROS2 />} />
         <Route path="/blogs/Embedded1" element={<Embedded1 />} />

@@ -67,6 +67,11 @@ const blogSections = [
     domain: "IoT",
     blogs: [
       {
+        type: "external",
+        title: "Introduction to IOT",
+        url: "/assets/pdfs/iot.pdf",
+      },
+      {
         type: "internal",
         title: "NodeMCU-Deep Sleep",
         url: "/blogs/IOT1",
@@ -106,15 +111,35 @@ const blogSections = [
         title: "Deep Learning 2?",
         url: "/blogs/DL2",
       },
+      {
+        type: "external",
+        title: "Machine Learning",
+        url: "/assets/pdfs/ML1.pdf",
+      },
+      {
+        type: "external",
+        title: "Deep Neural Networks",
+        url: "/assets/pdfs/ML2.pdf",
+      },
     ],
   },
-    {
+  {
     domain: "Image Processing",
     blogs: [
       {
         type: "internal",
         title: "Computer Vision",
         url: "/blogs/IP1",
+      },
+      {
+        type: "external",
+        title: "Image Processing",
+        url: "https://prezi.com/al-6mdxsoqkt/ip-session/?rc=ex0share",
+      },
+      {
+        type: "external",
+        title: "Image Processing (Drive)",
+        url: "https://drive.google.com/drive/folders/1622AhFxN5ry4_P2tRj57kEIlW1DsKg2k",
       },
     ],
   },
