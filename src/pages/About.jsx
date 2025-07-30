@@ -8,6 +8,7 @@ function About() {
         <h1 className="team-title">About Our Club</h1>
       </div>
       <Home1 />
+      
     </>
   );
 }

@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
 import Home from "./pages/Home";
-import About from "./pages/About";
+import About from "./pages/AboutUs";
 import Induction from "./pages/Induction";
 import Blogs from "./pages/Blogs";
 import Robotics from "./pages/Robotics";
