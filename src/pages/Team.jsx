@@ -1,6 +1,6 @@
 import React from "react";
 import TeamCard from "../components/TeamCard";
-import "../components/Team.css"; // Assuming common styles here
+import "../components/Styles/Team.css";
 
 const Steering = [
   {

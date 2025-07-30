@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../components/Project.css";
+import "../components/Styles/Project.css";
 
 function Induction() {
   return (

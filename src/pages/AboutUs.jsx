@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../components/Home2.css";
+import "../components/Styles/Home2.css";
 import Home1 from "../components/Home1";
 
 const notesContent = {

@@ -1,5 +1,5 @@
 import React from "react";
-import "../components/Blogs2.css";
+import "../components/Styles/Blogs2.css";
 import BackButton from "../components/BackButton";
 
 function IP1() {

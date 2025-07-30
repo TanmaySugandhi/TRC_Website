@@ -1,5 +1,5 @@
 import React from "react";
-import "../components/Project.css"
+import "../components/Styles/Project.css"
 
 function Induction() {
   return (
