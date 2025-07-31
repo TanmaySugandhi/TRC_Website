@@ -5,15 +5,15 @@ function Home2() {
     <>
       <div className="info-cards">
         <div className="card">
-          <a className="yellow" href=""><h2>TAB</h2></a>
+          <a className="yellow" href="/tab"><h2>TAB</h2></a>
           <p>Learn about our technical domains</p>
         </div>
         <div className="card highlight">
-          <a className="high" href=""><h2>Projects</h2></a>
-          <p>View our Projects</p>
+          <a className="high" href="/achievement"><h2>Achievements</h2></a>
+          <p>View our Achievements</p>
         </div>
         <div className="card">
-          <a className="yellow" href=""><h2>Team</h2></a>
+          <a className="yellow" href="/team"><h2>Team</h2></a>
           <p>Know about our Team</p>
         </div>
       </div>
