@@ -4,7 +4,7 @@ import "./Styles/Team.css";
 const TeamCard = ({ img, name, role, phone, year }) => {
   return (
     <div className="team-card">
-      <img src={img} alt={name} className="team-img" />
+      <img src={img} alt={name} className="team-img" loading="lazy" />
       <div className="team-info">
         <h3>{name}</h3>
         <p>{role}</p>

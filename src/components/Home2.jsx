@@ -22,25 +22,25 @@ function Home2() {
         <h2>Recent Events</h2>
         <div class="events-grid">
           <div class="event-card">
-            <img src="/assets/workshop2.jpg" alt="Workshop 2" />
+            <img src="/assets/workshop2.jpg" alt="Workshop 2" loading="lazy" />
             <div class="event-info">
               <p>Sreenidhi School</p>
             </div>
           </div>
           <div class="event-card">
-            <img src="/assets/rv24.jpg" alt="Event 1" />
+            <img src="/assets/rv24.jpg" alt="Event 1" loading="lazy" />
             <div class="event-info">
               <p>ROBOVEDA 2024</p>
             </div>
           </div>
           <div class="event-card">
-            <img src="/assets/workshop1.jpg" alt="Workshop 1" />
+            <img src="/assets/workshop1.jpg" alt="Workshop 1" loading="lazy" />
             <div class="event-info">
               <p>Drone Workshop</p>
             </div>
           </div>
           <div class="event-card">
-            <img src="/assets/workshop2.jpg" alt="Workshop 2" />
+            <img src="/assets/workshop2.jpg" alt="Workshop 2" loading="lazy" />
             <div class="event-info">
               <p>IOT Workshop</p>
             </div>
@@ -51,25 +51,25 @@ function Home2() {
         <h2>Recent Achivements</h2>
         <div class="events-grid">
           <div class="event-card">
-            <img src="/assets/workshop2.jpg" alt="Workshop 2" />
+            <img src="/assets/workshop2.jpg" alt="Workshop 2" loading="lazy" />
             <div class="event-info">
               <p>Sreenidhi School</p>
             </div>
           </div>
           <div class="event-card">
-            <img src="/assets/rv24.jpg" alt="Event 1" />
+            <img src="/assets/rv24.jpg" alt="Event 1" loading="lazy" />
             <div class="event-info">
               <p>ROBOVEDA 2024</p>
             </div>
           </div>
           <div class="event-card">
-            <img src="/assets/workshop1.jpg" alt="Workshop 1" />
+            <img src="/assets/workshop1.jpg" alt="Workshop 1" loading="lazy" />
             <div class="event-info">
               <p>Drone Workshop</p>
             </div>
           </div>
           <div class="event-card">
-            <img src="/assets/workshop2.jpg" alt="Workshop 2" />
+            <img src="/assets/workshop2.jpg" alt="Workshop 2" loading="lazy" />
             <div class="event-info">
               <p>IOT Workshop</p>
             </div>

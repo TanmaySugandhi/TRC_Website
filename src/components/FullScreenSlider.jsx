@@ -18,25 +18,25 @@ const Slider = () => {
         emulateTouch={true}
       >
         <div>
-          <img src="/assets/trc1.jpg" alt="Slide 1" />
+          <img src="/assets/trc1.jpg" alt="Slide 1" loading="lazy" />
         </div>
         <div>
-          <img src="/assets/trc2.jpg" alt="Slide 2" />
+          <img src="/assets/trc2.jpg" alt="Slide 2" loading="lazy" />
         </div>
         <div>
-          <img src="/assets/trc3.jpg" alt="Slide 3" />
+          <img src="/assets/trc3.jpg" alt="Slide 3" loading="lazy" />
         </div>
         <div>
-          <img src="/assets/trc4.jpg" alt="Slide 4" />
+          <img src="/assets/trc4.jpg" alt="Slide 4" loading="lazy" />
         </div>
         <div>
-          <img src="/assets/trc5.jpg" alt="Slide 5" />
+          <img src="/assets/trc5.jpg" alt="Slide 5" loading="lazy" />
         </div>
         <div>
-          <img src="/assets/trc6.jpg" alt="Slide 6" />
+          <img src="/assets/trc6.jpg" alt="Slide 6" loading="lazy" />
         </div>
         <div>
-          <img src="/assets/trc7.jpg" alt="Slide 7" />
+          <img src="/assets/trc7.jpg" alt="Slide 7" loading="lazy" />
         </div>
       </Carousel>
     </section>

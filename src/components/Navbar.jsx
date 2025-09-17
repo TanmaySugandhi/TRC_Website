@@ -34,8 +34,8 @@ function Navbar() {
     <nav className="navbar">
       <div className="navbar-logo">
         <div className="navbar-logo-container">
-          <img src="/logo.png" alt="Logo" className="logo-icon" />
-          <img src="/textlogo2.png" alt="Logo" className="logo-text" />
+          <img src="/logo.png" alt="Logo" className="logo-icon" loading="lazy" />
+          <img src="/textlogo2.png" alt="Logo" className="logo-text" loading="lazy" />
         </div>
         <button className="menu-toggle" onClick={toggleMenu}>
           <span className="menu-text">MENU</span>
