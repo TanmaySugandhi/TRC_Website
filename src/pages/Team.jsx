@@ -8,7 +8,7 @@ const Steering = [
     role: "President",
     phone: "9492030214",
     year: "ECE 4th year",
-    img: "/assets/Board/president.jpg",
+    img: "/assets/Board/President.jpg",
   },
   {
     name: "R. Surya Prakash",
@@ -105,7 +105,7 @@ const TAB = [
     role: "Chairman",
     phone: "9516532696",
     year: "ECE 4th year",
-    img: "/assets/Board/Tabchairman.jpg",
+    img: "/assets/Board/TabChairman.jpg",
   },
   {
     name: "A. Sathwika",

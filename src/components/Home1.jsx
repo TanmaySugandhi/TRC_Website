@@ -9,7 +9,7 @@ function Home1() {
           <div className="row">
             <div className="left">
               <div className="about-img">
-                <img src="/assets/trclogo1.png" alt="Club Logo" loading="lazy" />
+                <img src="/assets/trclogo1.webp" alt="Club Logo" loading="lazy" />
               </div>
             </div>
             <div className="right">

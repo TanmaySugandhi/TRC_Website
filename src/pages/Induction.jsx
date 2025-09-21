@@ -12,19 +12,19 @@ function Induction() {
         <div className="project-cards">
           <div className="card-container">
             <Link to="/induction/2024" className="event-card">
-              <img src="/assets/induction.jpg" alt="Induction 2024" />
+              <img src="/assets/induction.webp" alt="Induction 2024" />
               <div className="card-caption">INDUCTION'24</div>
             </Link>
             <Link to="/induction/2023" className="event-card">
-              <img src="/assets/induction.jpg" alt="Induction 2023" />
+              <img src="/assets/induction.webp" alt="Induction 2023" />
               <div className="card-caption">INDUCTION'23</div>
             </Link>
             <Link to="/induction/2022" className="event-card">
-              <img src="/assets/induction.jpg" alt="Induction 2022" />
+              <img src="/assets/induction.webp" alt="Induction 2022" />
               <div className="card-caption">INDUCTION'22</div>
             </Link>
             <Link to="/induction/2020" className="event-card">
-              <img src="/assets/induction.jpg" alt="Induction 2020" />
+              <img src="/assets/induction.webp" alt="Induction 2020" />
               <div className="card-caption">INDUCTION'20</div>
             </Link>
           </div>

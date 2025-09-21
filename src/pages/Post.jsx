@@ -12,19 +12,19 @@ function Post() {
         <div className="project-cards">
           <div className="card-container">
             <Link to="/post/2023" className="event-card">
-              <img src="/assets/Pix.jpg" alt="Induction 2022" />
+              <img src="/assets/Pix.webp" alt="Induction 2022" />
               <div className="card-caption">POST INDUCTION'23</div>
             </Link>
             <Link to="/post/2022" className="event-card">
-              <img src="/assets/Pix.jpg" alt="Induction 2022" />
+              <img src="/assets/Pix.webp" alt="Induction 2022" />
               <div className="card-caption">POST INDUCTION'22</div>
             </Link>
             <Link to="/post/2021" className="event-card">
-              <img src="/assets/Pix.jpg" alt="Induction 2021" />
+              <img src="/assets/Pix.webp" alt="Induction 2021" />
               <div className="card-caption">POST INDUCTION'21</div>
             </Link>
             <Link to="/post/2019" className="event-card">
-              <img src="/assets/Pix.jpg" alt="Induction 2019" />
+              <img src="/assets/Pix.webp" alt="Induction 2019" />
               <div className="card-caption">POST INDUCTION'19</div>
             </Link>
           </div>
