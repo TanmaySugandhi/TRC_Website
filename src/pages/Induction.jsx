@@ -11,6 +11,10 @@ function Induction() {
       <div className="project-section">
         <div className="project-cards">
           <div className="card-container">
+            <Link to="/induction/2025" className="event-card">
+              <img src="/assets/induction.webp" alt="Induction 2025" />
+              <div className="card-caption">INDUCTION'25</div>
+            </Link>
             <Link to="/induction/2024" className="event-card">
               <img src="/assets/induction.webp" alt="Induction 2024" />
               <div className="card-caption">INDUCTION'24</div>

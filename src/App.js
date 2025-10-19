@@ -14,6 +14,7 @@ import Achievement from "./pages/Achievement";
 import Contact from "./pages/ContactUs";
 import Post from "./pages/Post";
 import TAB from "./pages/TAB";
+import Induction25 from "./pages/ind25";
 import Induction24 from "./pages/ind24";
 import Induction23 from "./pages/ind23";
 import Induction22 from "./pages/ind22";
@@ -48,6 +49,7 @@ function App() {
         <Route path="/achievement" element={<Achievement />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/induction" element={<Induction />} />
+        <Route path="/induction/2025" element={<Induction25 />} />
         <Route path="/induction/2024" element={<Induction24 />} />
         <Route path="/induction/2023" element={<Induction23 />} />
         <Route path="/induction/2022" element={<Induction22 />} />
