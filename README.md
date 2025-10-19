@@ -38,7 +38,7 @@ npm start
 
 ## 🔗 Live Demo
 
-> _[Launching Soon]_
+> https://www.theroboticsclubsnist.org/
 
 ---
 
